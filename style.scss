@@ -10,11 +10,38 @@
     margin-top: 30px;
     border-radius: 50px;
     // position: fixed;
-    border: 1px solid #111;
+    // border: 1px solid #111;
     width: 90%;
+    height: 10vh;
     display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 0 10px rgba(117, 117, 117, 0.2);
     img{
-        height: 100px;
-        border: 1px solid #111;
+        height: 50px;
+        // border: 1px solid #111;
     }
+    .icons{
+        img{
+            height: 21px;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li{
+            margin: 0 18px;
+            letter-spacing: 1px;
+            font-size: 18px;
+            a{
+                color: #111;
+            }
+        }
+    }
+    
 }
