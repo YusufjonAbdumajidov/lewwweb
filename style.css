@@ -41,6 +41,30 @@
   color: #111;
 }
 
+main {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main section span {
+  color: #FF1CF7;
+  margin-top: 10px;
+}
+main section h1 {
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+main section p {
+  margin-top: 20px;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+main section {
+  margin-left: 30px;
+}
 main section img {
   height: 400px;
   border-radius: 30px;
