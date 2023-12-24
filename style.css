@@ -39,4 +39,9 @@
 }
 .navbar ul li a {
   color: #111;
+}
+
+main section img {
+  height: 400px;
+  border-radius: 30px;
 }/*# sourceMappingURL=style.css.map */
