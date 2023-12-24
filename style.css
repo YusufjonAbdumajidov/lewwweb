@@ -6,6 +6,10 @@
   font-family: sans-serif;
 }
 
+body {
+  background-color: #fbfbfb;
+}
+
 .navbar {
   margin: 0 auto;
   margin-top: 30px;
@@ -17,7 +21,7 @@
   background-color: #fff;
   align-items: center;
   padding: 0 30px;
-  box-shadow: 0 0 10px rgba(117, 117, 117, 0.2);
+  box-shadow: 0 0 10px rgba(160, 160, 160, 0.2);
 }
 .navbar img {
   height: 50px;
@@ -49,23 +53,66 @@ main {
   justify-content: space-between;
   align-items: center;
 }
-main section span {
+main .desc-container {
+  width: 50%;
+}
+main .desc-container span {
   color: #FF1CF7;
   margin-top: 10px;
 }
-main section h1 {
+main .desc-container h1 {
   font-size: 50px;
   letter-spacing: 1px;
+  width: 100%;
 }
-main section p {
+main .desc-container p {
   margin-top: 20px;
   letter-spacing: 1px;
   font-size: 18px;
 }
-main section {
-  margin-left: 30px;
+main .image-container {
+  margin-left: 10px;
 }
-main section img {
-  height: 400px;
+main .image-container img {
+  height: 450px;
   border-radius: 30px;
+}
+
+.about {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 90px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.about h1 {
+  font-size: 30px;
+  letter-spacing: 0.5px;
+}
+.about .inner-about {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.about .inner-about section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .inner-about section p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  width: 50%;
+}
+.about .inner-about section img {
+  width: 50%;
+  height: 480px;
+}
+.about .inner-about section img:nth-child(2) {
+  margin-left: 80px;
+}
+.about .inner-about section img:nth-child(1) {
+  margin-right: 80px;
 }/*# sourceMappingURL=style.css.map */
