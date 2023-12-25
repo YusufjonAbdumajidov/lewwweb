@@ -115,4 +115,24 @@ main .image-container img {
 }
 .about .inner-about section img:nth-child(1) {
   margin-right: 80px;
+}
+
+.services {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 90px;
+  border: 1px solid #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services .services-container {
+  margin-top: 40px;
+  border: 1px solid #c80505;
+}
+.services .services-container section {
+  border: 1px solid green;
+}
+.services .services-container section img {
+  height: 200px;
 }/*# sourceMappingURL=style.css.map */
