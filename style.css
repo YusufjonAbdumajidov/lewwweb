@@ -121,18 +121,48 @@ main .image-container img {
   width: 80%;
   margin: 0 auto;
   margin-top: 90px;
-  border: 1px solid #111;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .services .services-container {
+  display: flex;
+  flex-direction: column;
   margin-top: 40px;
-  border: 1px solid #c80505;
+  justify-content: center;
+  align-items: center;
 }
 .services .services-container section {
-  border: 1px solid green;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(72, 72, 72, 0.2);
+  width: 60%;
+  margin: 30px 0;
+}
+.services .services-container section div {
+  width: 60%;
+}
+.services .services-container section h2 {
+  color: #7C14FD;
+}
+.services .services-container section p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 20px;
 }
 .services .services-container section img {
-  height: 200px;
+  height: 240px;
+}
+.services .services-container section:nth-child(1) {
+  margin-left: 200px;
+}
+.services .services-container section:nth-child(2) {
+  margin-right: 200px;
+}
+.services .services-container section:nth-child(3) {
+  margin-left: 200px;
 }/*# sourceMappingURL=style.css.map */
