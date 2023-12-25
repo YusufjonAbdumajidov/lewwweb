@@ -67,6 +67,8 @@ main{
             font-size: 50px;
             letter-spacing: 1px;
             width: 100%;
+            color: #7C14FD;
+            
         }
         p{
             margin-top: 20px;
@@ -136,6 +138,9 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    span{
+        color: #7C14FD;
+    }
     .services-container{
         display: flex;
         flex-direction: column;
@@ -143,6 +148,7 @@ main{
         // border: 1px solid #c80505;
         justify-content: center;
         align-items: center;
+        
         section{
             padding: 20px;
             display: flex;
@@ -160,11 +166,14 @@ main{
             }
             h2{
                 color: #7C14FD;
+                letter-spacing: 1px;
             }
+            
             p{
                 font-size: 16px;
                 letter-spacing: 1px;
-                margin-top: 20px;
+                margin-top: 10px;
+                line-height: 24px;
             }
             img{
                 height: 240px;

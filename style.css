@@ -64,6 +64,7 @@ main .desc-container h1 {
   font-size: 50px;
   letter-spacing: 1px;
   width: 100%;
+  color: #7C14FD;
 }
 main .desc-container p {
   margin-top: 20px;
@@ -125,6 +126,9 @@ main .image-container img {
   flex-direction: column;
   align-items: center;
 }
+.services span {
+  color: #7C14FD;
+}
 .services .services-container {
   display: flex;
   flex-direction: column;
@@ -148,11 +152,13 @@ main .image-container img {
 }
 .services .services-container section h2 {
   color: #7C14FD;
+  letter-spacing: 1px;
 }
 .services .services-container section p {
   font-size: 16px;
   letter-spacing: 1px;
-  margin-top: 20px;
+  margin-top: 10px;
+  line-height: 24px;
 }
 .services .services-container section img {
   height: 240px;
