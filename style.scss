@@ -194,12 +194,12 @@ main{
     width: 80%;
     margin: 0 auto;
     margin-top: 90px;
-    border: 1px solid #111;
+    // border: 1px solid #111;
     display: flex;
     flex-direction: column;
     align-items: center;
     span{
-        color: #FF1CF7;
+        color: #7C14FD;
     }
     p{
         margin-top: 20px;
@@ -209,7 +209,7 @@ main{
     }
     button{
         margin-top: 30px;
-        padding: 8px 26px;
+        padding: 10px 26px;
         outline: none;
         border: none;
         border: 1px solid #111;
@@ -217,7 +217,7 @@ main{
         cursor: pointer;
         font-size: 18px;
         letter-spacing: 1px;
-        border-radius: 30px;
+        border-radius: 10px;
     }
     .products-container{
         margin-top: 50px;
@@ -226,12 +226,50 @@ main{
         justify-content: space-between;
         img{
             height: 260px;
-            border: 1px solid #111;
+            cursor: pointer;
+            // border: 1px solid #111;
             margin: 20px 30px;
             border-radius: 20px;
             &:nth-child(2){
                 transform: scale3d(1.1,1.1,1.1);
             }
         }
+    }
+}
+.contact{
+    width: 80%;
+    position: relative;
+    padding: 0 40px;
+    margin: 0 auto;
+    margin-top: 110px;
+    // border: 1px solid #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+        font-size: 30px;
+    }
+    p{
+        margin-top: 20px;
+        font-size: 20px;
+        width: 70%;
+    }
+    button{
+        margin-top: 20px;
+        padding: 10px 26px;
+        outline: none;
+        border: none;
+        // border: 1px solid #111;
+        background: transparent;
+        cursor: pointer;
+        font-size: 18px;
+        letter-spacing: 1px;
+        border-radius: 10px;
+        background-color: rgb(125, 20, 252);
+        color: #fff;
+    }
+    // background-color: rgb(125, 20, 252, .4);
+    img{
+        height: 440px;
     }
 }
