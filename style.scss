@@ -203,31 +203,10 @@ main{
         display: flex;
         display: flex;
         justify-content: space-between;
-        section{
-            &:nth-child(1){
-                width: 45%;
-                img{
-                    &:nth-child(1){
-                        height: 560px;
-                    }
-                    &:nth-child(2){
-                        height: 405px;
-                    }
-                }
-            }
-            &:nth-child(2){
-                width: 45%;
-                img{
-                    &:nth-child(1){
-                        height: 600px;
-                    }
-                }
-            }
-            img{
-                height: 200px;
-                border: 1px solid #111;
-                margin: 20px 0;
-            }
+        img{
+            height: 200px;
+            border: 1px solid #111;
+            margin: 20px 0;
         }
     }
 }

@@ -188,22 +188,7 @@ main .image-container img {
   display: flex;
   justify-content: space-between;
 }
-.products .products-container section:nth-child(1) {
-  width: 45%;
-}
-.products .products-container section:nth-child(1) img:nth-child(1) {
-  height: 560px;
-}
-.products .products-container section:nth-child(1) img:nth-child(2) {
-  height: 405px;
-}
-.products .products-container section:nth-child(2) {
-  width: 45%;
-}
-.products .products-container section:nth-child(2) img:nth-child(1) {
-  height: 600px;
-}
-.products .products-container section img {
+.products .products-container img {
   height: 200px;
   border: 1px solid #111;
   margin: 20px 0;
