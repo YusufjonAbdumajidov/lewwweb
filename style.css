@@ -182,6 +182,27 @@ main .image-container img {
   flex-direction: column;
   align-items: center;
 }
+.products span {
+  color: #FF1CF7;
+}
+.products p {
+  margin-top: 20px;
+  width: 50%;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.products button {
+  margin-top: 30px;
+  padding: 8px 26px;
+  outline: none;
+  border: none;
+  border: 1px solid #111;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-radius: 30px;
+}
 .products .products-container {
   margin-top: 50px;
   display: flex;
@@ -189,7 +210,11 @@ main .image-container img {
   justify-content: space-between;
 }
 .products .products-container img {
-  height: 200px;
+  height: 260px;
   border: 1px solid #111;
-  margin: 20px 0;
+  margin: 20px 30px;
+  border-radius: 20px;
+}
+.products .products-container img:nth-child(2) {
+  transform: scale3d(1.1, 1.1, 1.1);
 }/*# sourceMappingURL=style.css.map */
