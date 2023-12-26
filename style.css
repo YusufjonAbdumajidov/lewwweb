@@ -6,6 +6,10 @@
   font-family: sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #fbfbfb;
 }
@@ -251,4 +255,52 @@ main .image-container img {
 }
 .contact img {
   height: 440px;
+}
+
+footer {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 110px;
+  background-color: rgb(125, 20, 252);
+  display: flex;
+  justify-content: space-between;
+}
+footer section {
+  padding: 20px 0;
+  margin-left: 10%;
+}
+footer section h2 {
+  color: #fff;
+  margin-bottom: 16px;
+}
+footer section img {
+  height: 20px;
+  cursor: pointer;
+}
+footer section p {
+  color: #dadada;
+  margin: 10px 0;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+footer section:nth-child(2) {
+  margin-left: 0;
+}
+footer section:nth-child(3) {
+  margin-left: 0;
+  margin-right: 10%;
+}
+footer section:nth-child(3) p {
+  cursor: pointer;
+}
+
+.inner-footer {
+  background-color: rgb(125, 20, 252);
+  border-top: 1px solid #fff;
+  padding: 30px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=style.css.map */
