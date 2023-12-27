@@ -303,4 +303,19 @@ footer section:nth-child(3) p {
   align-items: center;
   justify-content: center;
   letter-spacing: 1px;
+}
+
+@media (max-width: 1024px) {
+  main .desc-container {
+    width: 60%;
+  }
+  main .desc-container h1 {
+    font-size: 38px;
+  }
+  main .desc-container p {
+    font-size: 16px;
+  }
+  main .image-container img {
+    height: 330px;
+  }
 }/*# sourceMappingURL=style.css.map */

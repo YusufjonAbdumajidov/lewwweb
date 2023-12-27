@@ -325,3 +325,28 @@ footer{
     justify-content: center;
     letter-spacing: 1px;
 }
+
+
+
+
+
+///Working on responsiveness 
+
+@media (max-width: 1024px){
+    main{
+        .desc-container{
+            width: 60%;
+            h1{
+                font-size: 38px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+        .image-container{
+            img{
+                height: 330px;
+            }
+        }
+    }
+}
