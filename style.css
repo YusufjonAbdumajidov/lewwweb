@@ -318,4 +318,38 @@ footer section:nth-child(3) p {
   main .image-container img {
     height: 330px;
   }
+  .about {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 90px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .about h1 {
+    font-size: 30px;
+    letter-spacing: 0.5px;
+  }
+  .about .inner-about {
+    margin-top: 40px;
+  }
+  .about .inner-about section p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    width: 50%;
+  }
+  .about .inner-about section img {
+    width: 50%;
+    height: 380px;
+  }
+  .about .inner-about section img:nth-child(2) {
+    margin-left: 80px;
+  }
+  .about .inner-about section img:nth-child(1) {
+    margin-right: 80px;
+  }
+  .about .inner-about section:nth-child(2) {
+    margin-top: 40px;
+  }
 }/*# sourceMappingURL=style.css.map */

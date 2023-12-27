@@ -349,4 +349,42 @@ footer{
             }
         }
     }
+
+    .about{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 90px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        // border: 1px solid #111;
+        h1{
+            font-size: 30px;
+            letter-spacing: 0.5px;
+        }
+        .inner-about{
+            margin-top: 40px;
+            section{
+                p{
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    line-height: 20px;
+                    width: 50%;
+                }
+                img{
+                    width: 50%;
+                    height: 380px;
+                    &:nth-child(2){
+                        margin-left: 80px;
+                    }
+                    &:nth-child(1){
+                        margin-right: 80px;
+                    }
+                }
+                &:nth-child(2){
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
 }
