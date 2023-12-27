@@ -449,4 +449,45 @@ footer{
             }
         }
     }
+
+    .contact{
+        width: 80%;
+        position: relative;
+        padding: 0 40px;
+        margin: 0 auto;
+        margin-top: 110px;
+        // border: 1px solid #111;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            font-size: 30px;
+        }
+        p{
+            margin-top: 20px;
+            font-size: 20px;
+            width: 80%;
+            letter-spacing: 1px;
+        }
+        button{
+            margin-top: 20px;
+            padding: 10px 26px;
+            outline: none;
+            border: none;
+            // border: 1px solid #111;
+            background: transparent;
+            cursor: pointer;
+            font-size: 20px;
+            letter-spacing: 1px;
+            border-radius: 10px;
+            background-color: rgb(125, 20, 252);
+            color: #fff;
+            letter-spacing: 1px;
+        }
+        // background-color: rgb(125, 20, 252, .4);
+        img{
+            height: 300px;
+        }
+    }
+    
 }

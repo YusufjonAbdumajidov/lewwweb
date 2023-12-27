@@ -406,4 +406,40 @@ footer section:nth-child(3) p {
   .services .services-container section:nth-child(3) {
     margin-left: 200px;
   }
+  .contact {
+    width: 80%;
+    position: relative;
+    padding: 0 40px;
+    margin: 0 auto;
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact h1 {
+    font-size: 30px;
+  }
+  .contact p {
+    margin-top: 20px;
+    font-size: 20px;
+    width: 80%;
+    letter-spacing: 1px;
+  }
+  .contact button {
+    margin-top: 20px;
+    padding: 10px 26px;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    background-color: rgb(125, 20, 252);
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .contact img {
+    height: 300px;
+  }
 }/*# sourceMappingURL=style.css.map */
