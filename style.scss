@@ -330,7 +330,13 @@ footer{
 
 
 
-///Working on responsiveness 
+
+
+
+
+
+
+
 
 @media (max-width: 1024px){
     main{
@@ -491,3 +497,222 @@ footer{
     }
     
 }
+
+
+
+
+
+@media (max-width: 850px){
+    main{
+        .desc-container{
+            width: 60%;
+            h1{
+                font-size: 28px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+        .image-container{
+            img{
+                height: 260px;
+            }
+        }
+    }
+
+    .about{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 90px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        // border: 1px solid #111;
+        h1{
+            font-size: 24px;
+            letter-spacing: 0.5px;
+        }
+        .inner-about{
+            margin-top: 40px;
+            section{
+                p{
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    line-height: 20px;
+                    width: 70%;
+                }
+                img{
+                    width: 50%;
+                    height: 330px;
+                    &:nth-child(2){
+                        margin-left: 80px;
+                    }
+                    &:nth-child(1){
+                        margin-right: 80px;
+                    }
+                }
+                &:nth-child(2){
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+
+
+    .services{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 90px;
+        // border: 1px solid #111;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            font-size: 28px;
+            letter-spacing: 0.5px;
+        }
+        span{
+            color: #7C14FD;
+        }
+        .services-container{
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+            // border: 1px solid #c80505;
+            justify-content: center;
+            align-items: center;
+            
+            section{
+                padding: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-radius: 20px;
+                background-color: #fff;
+                box-shadow: 0 0 10px rgb(72, 72, 72, .2);
+              
+                width: 70%;
+                // border: 1px solid rgb(16, 16, 16);
+                margin: 30px 0;
+                div{
+                    width: 60%;
+                }
+                h2{
+                    color: #7C14FD;
+                    letter-spacing: 1px;
+                }
+                
+                p{
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                    margin-top: 10px;
+                    line-height: 24px;
+                }
+                img{
+                    height: 200px;
+                }
+                &:nth-child(1){
+                    margin-left: 200px;
+                }
+                &:nth-child(2){
+                    margin-right: 200px;
+                }
+                &:nth-child(3){
+                    margin-left: 200px;
+                }
+            }
+        }
+    }
+
+    .products{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 90px;
+        // border: 1px solid #111;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            font-size: 28px;
+        }
+        span{
+            color: #7C14FD;
+        }
+        p{
+            margin-top: 20px;
+            width: 50%;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        button{
+            margin-top: 30px;
+            padding: 10px 26px;
+            outline: none;
+            border: none;
+            border: 1px solid #111;
+            background: transparent;
+            cursor: pointer;
+            font-size: 18px;
+            letter-spacing: 1px;
+            border-radius: 10px;
+        }
+        .products-container{
+            margin-top: 50px;
+            display: flex;
+            display: flex;
+            justify-content: space-between;
+            img{
+                height: 200px;
+                cursor: pointer;
+                // border: 1px solid #111;
+                margin: 20px 30px;
+                border-radius: 20px;
+                &:nth-child(2){
+                    transform: scale3d(1.1,1.1,1.1);
+                }
+            }
+        }
+    }
+
+    .contact{
+        width: 80%;
+        position: relative;
+        padding: 0 40px;
+        margin: 0 auto;
+        margin-top: 110px;
+        // border: 1px solid #111;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            font-size: 28px;
+        }
+        p{
+            margin-top: 20px;
+            font-size: 16px;
+            width: 80%;
+            letter-spacing: 1px;
+        }
+        button{
+            margin-top: 20px;
+            padding: 10px 26px;
+            outline: none;
+            border: none;
+            // border: 1px solid #111;
+            background: transparent;
+            cursor: pointer;
+            font-size: 20px;
+            letter-spacing: 1px;
+            border-radius: 10px;
+            background-color: rgb(125, 20, 252);
+            color: #fff;
+            letter-spacing: 1px;
+        }
+        // background-color: rgb(125, 20, 252, .4);
+        img{
+            height: 300px;
+        }
+    }
+    
+}
+
