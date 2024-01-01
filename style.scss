@@ -1356,7 +1356,7 @@ footer{
         border-radius: 50px;
         // position: fixed;
         // border: 1px solid #111;
-        width: 90%;
+        width: 80%;
         height: 10vh;
         display: flex;
         justify-content: space-between;
@@ -1587,10 +1587,9 @@ footer{
     }
 
     .contact{
-        overflow: hidden;
         width: 90%;
         position: relative;
-        padding: 0 40px;
+        padding: 0 20px;
         margin: 0 auto;
         margin-top: 110px;
         // border: 1px solid #111;
@@ -1599,39 +1598,39 @@ footer{
         align-items: center;
         flex-direction: column-reverse;
         h1{
-            font-size: 28px;
+            font-size: 24px;
             text-align: center;
-            margin-top: 30px;
+            margin-top: 40px;
         }
         p{
-            margin-top: 20px;
             text-align: center;
+            margin-top: 20px;
             font-size: 16px;
-            width: 90%;
-            letter-spacing: 1px;
+            width: 100%;
         }
         button{
-            width: 90%;
+            width: 100%;
             margin-top: 20px;
-            padding: 10px 26px;
+            padding: 20px 26px;
             outline: none;
             border: none;
             // border: 1px solid #111;
             background: transparent;
             cursor: pointer;
-            font-size: 20px;
+            font-size: 18px;
             letter-spacing: 1px;
             border-radius: 10px;
             background-color: rgb(125, 20, 252);
             color: #fff;
-            letter-spacing: 1px;
         }
         // background-color: rgb(125, 20, 252, .4);
         img{
-            height: 200px;
+            height: 180px;
         }
     }
     footer{
+        // border: 5px solid #111;
+        // display: none;
         width: 100%;
         // position: relative;
         overflow: hidden;

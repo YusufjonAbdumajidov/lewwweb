@@ -1177,7 +1177,7 @@ footer section:nth-child(3) p {
     margin: 0 auto;
     margin-top: 30px;
     border-radius: 50px;
-    width: 90%;
+    width: 80%;
     height: 10vh;
     display: flex;
     justify-content: space-between;
@@ -1387,10 +1387,9 @@ footer section:nth-child(3) p {
     transform: scale3d(1, 1, 1);
   }
   .contact {
-    overflow: hidden;
     width: 90%;
     position: relative;
-    padding: 0 40px;
+    padding: 0 20px;
     margin: 0 auto;
     margin-top: 110px;
     display: flex;
@@ -1399,34 +1398,32 @@ footer section:nth-child(3) p {
     flex-direction: column-reverse;
   }
   .contact h1 {
-    font-size: 28px;
+    font-size: 24px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
   }
   .contact p {
-    margin-top: 20px;
     text-align: center;
+    margin-top: 20px;
     font-size: 16px;
-    width: 90%;
-    letter-spacing: 1px;
+    width: 100%;
   }
   .contact button {
-    width: 90%;
+    width: 100%;
     margin-top: 20px;
-    padding: 10px 26px;
+    padding: 20px 26px;
     outline: none;
     border: none;
     background: transparent;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 1px;
     border-radius: 10px;
     background-color: rgb(125, 20, 252);
     color: #fff;
-    letter-spacing: 1px;
   }
   .contact img {
-    height: 200px;
+    height: 180px;
   }
   footer {
     width: 100%;
