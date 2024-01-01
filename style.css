@@ -50,6 +50,7 @@ body {
 }
 
 main {
+  overflow: hidden;
   width: 80%;
   margin: 0 auto;
   margin-top: 80px;
@@ -1231,6 +1232,7 @@ footer section:nth-child(3) p {
     height: 220px;
   }
   .about {
+    overflow: hidden;
     width: 90%;
     margin: 0 auto;
     margin-top: 130px;
@@ -1257,7 +1259,7 @@ footer section:nth-child(3) p {
     text-align: center;
   }
   .about .inner-about section img {
-    width: fit-content;
+    width: 80%;
     height: 200px;
   }
   .about .inner-about section img:nth-child(2) {
@@ -1379,7 +1381,6 @@ footer section:nth-child(3) p {
   .products .products-container img {
     height: 280px;
     cursor: pointer;
-    border: 1px solid #111;
     margin: 20px 10px;
     border-radius: 20px;
   }
