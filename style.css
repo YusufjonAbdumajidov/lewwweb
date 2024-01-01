@@ -216,6 +216,7 @@ main .image-container img {
   height: 260px;
   cursor: pointer;
   margin: 20px 30px;
+  box-shadow: 0 0 10px rgba(160, 160, 160, 0.2);
   border-radius: 20px;
 }
 .products .products-container img:nth-child(2) {
