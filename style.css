@@ -631,4 +631,193 @@ footer section:nth-child(3) p {
   .contact img {
     height: 300px;
   }
+}
+@media (max-width: 700px) {
+  main .desc-container {
+    width: 60%;
+  }
+  main .desc-container h1 {
+    font-size: 28px;
+  }
+  main .desc-container p {
+    font-size: 16px;
+  }
+  main .image-container img {
+    height: 260px;
+  }
+  .about {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 90px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .about h1 {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+  }
+  .about .inner-about {
+    margin-top: 40px;
+  }
+  .about .inner-about section p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    width: 70%;
+  }
+  .about .inner-about section img {
+    width: 50%;
+    height: 330px;
+  }
+  .about .inner-about section img:nth-child(2) {
+    margin-left: 80px;
+  }
+  .about .inner-about section img:nth-child(1) {
+    margin-right: 80px;
+  }
+  .about .inner-about section:nth-child(2) {
+    margin-top: 40px;
+  }
+  .services {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services h1 {
+    font-size: 28px;
+    letter-spacing: 0.5px;
+  }
+  .services span {
+    color: #7C14FD;
+  }
+  .services .services-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  .services .services-container section {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(72, 72, 72, 0.2);
+    width: 70%;
+    margin: 30px 0;
+  }
+  .services .services-container section div {
+    width: 60%;
+  }
+  .services .services-container section h2 {
+    color: #7C14FD;
+    letter-spacing: 1px;
+  }
+  .services .services-container section p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    line-height: 24px;
+  }
+  .services .services-container section img {
+    height: 200px;
+  }
+  .services .services-container section:nth-child(1) {
+    margin-left: 200px;
+  }
+  .services .services-container section:nth-child(2) {
+    margin-right: 200px;
+  }
+  .services .services-container section:nth-child(3) {
+    margin-left: 200px;
+  }
+  .products {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .products h1 {
+    font-size: 28px;
+  }
+  .products span {
+    color: #7C14FD;
+  }
+  .products p {
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .products button {
+    margin-top: 30px;
+    padding: 10px 26px;
+    outline: none;
+    border: none;
+    border: 1px solid #111;
+    background: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+  }
+  .products .products-container {
+    margin-top: 50px;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+  }
+  .products .products-container img {
+    height: 200px;
+    cursor: pointer;
+    margin: 20px 30px;
+    border-radius: 20px;
+  }
+  .products .products-container img:nth-child(2) {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  .contact {
+    width: 80%;
+    position: relative;
+    padding: 0 40px;
+    margin: 0 auto;
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact h1 {
+    font-size: 28px;
+  }
+  .contact p {
+    margin-top: 20px;
+    font-size: 16px;
+    width: 80%;
+    letter-spacing: 1px;
+  }
+  .contact button {
+    margin-top: 20px;
+    padding: 10px 26px;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    background-color: rgb(125, 20, 252);
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .contact img {
+    height: 300px;
+  }
 }/*# sourceMappingURL=style.css.map */
