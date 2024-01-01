@@ -205,6 +205,7 @@ main .image-container img {
   font-size: 18px;
   letter-spacing: 1px;
   border-radius: 10px;
+  color: #111;
 }
 .products .products-container {
   margin-top: 50px;
